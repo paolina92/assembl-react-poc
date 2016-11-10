@@ -1,0 +1,26 @@
+.postContainer{
+    border:$border-size solid $grey;
+    margin:0 0 $margin 0;
+    padding:0 $margin $margin $margin;
+    @include box-shadow($box-shadow-dist $box-shadow-dist $box-shadow-blur $grey);
+}
+.post{
+    margin:$margin 0 0 $margin;
+}
+.post-subject{
+    font-size:$l-txt;
+    margin:$margin 0 $margin 0;
+}
+.post-body{
+    margin:0 0 $margin 0;
+}
+.post-date{
+    font-size:$xs-txt;
+    font-style: italic;
+}
+.post-reply{
+    line-height: 30px;
+    font-size:$s-txt;
+    margin:$margin 0 0 0;
+    border-bottom:$border-size solid $grey;
+}

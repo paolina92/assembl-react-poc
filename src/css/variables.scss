@@ -1,0 +1,22 @@
+//Colors
+$grey: #CCC;
+
+//Text
+$xs-txt:10px;
+$s-txt:12px;
+$m-txt:14px;
+$l-txt:18px;
+$xl-txt:22px;
+
+//Margin, Padding, Border
+$margin: 20px;
+$border-size: 1px;
+$box-shadow-dist: 3px;
+$box-shadow-blur: 5px;
+
+//Mixins
+@mixin box-shadow($params) {
+  -webkit-box-shadow: $params;
+     -moz-box-shadow: $params;
+          box-shadow: $params;
+}
