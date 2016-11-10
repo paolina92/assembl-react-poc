@@ -1,4 +1,13 @@
 # assembl-react-poc
 
-npm install
-npm start
+# Install
+
+```console
+$> git clone git@github.com:paolina92/assembl-react-poc.git
+```
+```console
+$> npm install
+```
+```console
+$> npm start
+```
